@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="MainFrame" size="1927,2408" id="kr.ac.hanyang.webstart" metadata="uml2-1.0" initialized="true" zoom="0.75" tag="10" key="32303037303533312D313020616E6E69655F616E616C797A6572">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.4/@sourceConnections.3" name="PropertyManager" location="30,441" size="222,116" id="kr.ac.hanyang.webstart/PropertyManager">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PropertyManager" id="kr.ac.hanyang.webstart/PropertyManager#PropertyManager()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadXMLFile" id="kr.ac.hanyang.webstart/PropertyManager#loadXMLFile()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveXMLFile" id="kr.ac.hanyang.webstart/PropertyManager#saveXMLFile()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.5 //@children.8/@sourceConnections.2" name="ImageManager" location="751,584" size="271,151" id="kr.ac.hanyang.common/ImageManager">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getImageIcon" id="kr.ac.hanyang.common/ImageManager#getImageIcon(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="kr.ac.hanyang.common/ImageManager#getInstance(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.8 //@children.4/@sourceConnections.7" name="LayoutPanel" location="29,14" size="229,181" id="kr.ac.hanyang.webstart/LayoutPanel">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,108">
+      <children xsi:type="editmodel:MethodEditModel" name="LayoutPanel" id="kr.ac.hanyang.webstart/LayoutPanel#LayoutPanel(Lkr.ac.hanyang.webstart.ActionProcessor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addFrame" id="kr.ac.hanyang.webstart/LayoutPanel#addFrame(Lkr.ac.hanyang.webstart.internal_frame.AbstractInternalFrame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTree" id="kr.ac.hanyang.webstart/LayoutPanel#getTree()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setReport" id="kr.ac.hanyang.webstart/LayoutPanel#setReport(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStatus" id="kr.ac.hanyang.webstart/LayoutPanel#setStatus(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStatus" id="kr.ac.hanyang.webstart/LayoutPanel#setStatus(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2 //@children.8/@sourceConnections.0 //@children.4/@sourceConnections.9 //@children.4/@sourceConnections.10" name="ActionProcessor" location="754,19" size="275,538" id="kr.ac.hanyang.webstart/ActionProcessor">
+    <children xsi:type="editmodel:CompartmentEditModel" size="252,396">
+      <children xsi:type="editmodel:AttributeEditModel" name="aBOUT" id="kr.ac.hanyang.webstart/ActionProcessor#aBOUT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aDD_COLLECTOR" id="kr.ac.hanyang.webstart/ActionProcessor#aDD_COLLECTOR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aDD_DATASETS" id="kr.ac.hanyang.webstart/ActionProcessor#aDD_DATASETS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="aDD_GROUP" id="kr.ac.hanyang.webstart/ActionProcessor#aDD_GROUP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cOLLECT" id="kr.ac.hanyang.webstart/ActionProcessor#cOLLECT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cOR" id="kr.ac.hanyang.webstart/ActionProcessor#cOR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eXIT" id="kr.ac.hanyang.webstart/ActionProcessor#eXIT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fIND_IN_RESULT" id="kr.ac.hanyang.webstart/ActionProcessor#fIND_IN_RESULT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fIND_IN_TREE" id="kr.ac.hanyang.webstart/ActionProcessor#fIND_IN_TREE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lOAD_CSV" id="kr.ac.hanyang.webstart/ActionProcessor#lOAD_CSV"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="oPEN_WS" id="kr.ac.hanyang.webstart/ActionProcessor#oPEN_WS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="oPTIONS" id="kr.ac.hanyang.webstart/ActionProcessor#oPTIONS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rEALTIME_COLLECT" id="kr.ac.hanyang.webstart/ActionProcessor#rEALTIME_COLLECT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rEPORT" id="kr.ac.hanyang.webstart/ActionProcessor#rEPORT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sAVE_CSV" id="kr.ac.hanyang.webstart/ActionProcessor#sAVE_CSV"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sAVE_WS" id="kr.ac.hanyang.webstart/ActionProcessor#sAVE_WS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sHIFT_COR" id="kr.ac.hanyang.webstart/ActionProcessor#sHIFT_COR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTOP" id="kr.ac.hanyang.webstart/ActionProcessor#sTOP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tREE_SELECTION" id="kr.ac.hanyang.webstart/ActionProcessor#tREE_SELECTION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="uSER_GUIDE" id="kr.ac.hanyang.webstart/ActionProcessor#uSER_GUIDE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wORKSPACE_EXTENSION" id="kr.ac.hanyang.webstart/ActionProcessor#wORKSPACE_EXTENSION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wS_EXTENSION_ARRAY" id="kr.ac.hanyang.webstart/ActionProcessor#wS_EXTENSION_ARRAY"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ActionProcessor" id="kr.ac.hanyang.webstart/ActionProcessor#ActionProcessor(Lkr.ac.hanyang.webstart.MainFrame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionProcess" id="kr.ac.hanyang.webstart/ActionProcessor#actionProcess(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addTree" id="kr.ac.hanyang.webstart/ActionProcessor#addTree(Lkr.ac.hanyang.entity.AbstractEntity;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeTree" id="kr.ac.hanyang.webstart/ActionProcessor#removeTree(Lkr.ac.hanyang.entity.AbstractEntity;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateTree" id="kr.ac.hanyang.webstart/ActionProcessor#updateTree(Lkr.ac.hanyang.entity.AbstractEntity;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainFrame" location="384,359" size="261,346" id="kr.ac.hanyang.webstart/MainFrame">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,126">
+      <children xsi:type="editmodel:MethodEditModel" name="MainFrame" id="kr.ac.hanyang.webstart/MainFrame#MainFrame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addFrame" id="kr.ac.hanyang.webstart/MainFrame#addFrame(Lkr.ac.hanyang.webstart.internal_frame.AbstractInternalFrame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTargetDataSets" id="kr.ac.hanyang.webstart/MainFrame#getTargetDataSets()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="kr.ac.hanyang.webstart/MainFrame#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLookAndFeel" id="kr.ac.hanyang.webstart/MainFrame#setLookAndFeel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStatus" id="kr.ac.hanyang.webstart/MainFrame#setStatus(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStatus" id="kr.ac.hanyang.webstart/MainFrame#setStatus(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/MenuBar@menuBar+kr.ac.hanyang.webstart/MainFrame@" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,30" id="kr.ac.hanyang.webstart/MenuBar@menuBar+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/MainFrame#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="menuBar" location="224,120" id="kr.ac.hanyang.webstart/MenuBar@menuBar+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/MenuBar#menuBar" multiplicityLabel="//@children.4/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - menuBar" location="259,365" size="64,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="259,395" size="22,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/PropertyManager@property+kr.ac.hanyang.webstart/MainFrame@" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,139" id="kr.ac.hanyang.webstart/PropertyManager@property+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/MainFrame#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="property" location="222,57" id="kr.ac.hanyang.webstart/PropertyManager@property+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/PropertyManager#property" multiplicityLabel="//@children.4/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - property" location="259,474" size="59,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="259,504" size="7,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/MainFrame@rootFrm+kr.ac.hanyang.webstart/ActionProcessor@" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rootFrm" location="261,99" id="kr.ac.hanyang.webstart/MainFrame@rootFrm+kr.ac.hanyang.webstart/ActionProcessor@|kr.ac.hanyang.webstart/MainFrame#rootFrm" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - rootFrm" location="651,434" size="57,16" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="651,464" size="22,16" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,439" id="kr.ac.hanyang.webstart/MainFrame@rootFrm+kr.ac.hanyang.webstart/ActionProcessor@|kr.ac.hanyang.webstart/ActionProcessor#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/MainFrame-Standard::Call->kr.ac.hanyang.webstart/PropertyManager*kr.ac.hanyang.webstart/MainFrame-Standard::Instantiate->kr.ac.hanyang.webstart/PropertyManager*kr.ac.hanyang.webstart/MainFrame-Soyatec::Import->kr.ac.hanyang.webstart/PropertyManager" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="148,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,119" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="222,24"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/MainFrame-Standard::Instantiate->kr.ac.hanyang.webstart/MenuBar*kr.ac.hanyang.webstart/MainFrame-Soyatec::Import->kr.ac.hanyang.webstart/MenuBar" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="118,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="224,87"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/MainFrame-Standard::Call->kr.ac.hanyang.common/ImageManager" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.5/@children.2" label="//@children.4/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="36,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="261,285" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,60"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/MainFrame-Soyatec::Import->kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.6/@children.2" label="//@children.4/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="50,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="159,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="100,176"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="kr.ac.hanyang.webstart/LayoutPanel@layoutPanel+kr.ac.hanyang.webstart/MainFrame@" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.7/@children.2" label="//@children.4/@sourceConnections.7/@children.0" sourceEnd="//@children.4/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,0" id="kr.ac.hanyang.webstart/LayoutPanel@layoutPanel+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/MainFrame#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="layoutPanel" location="229,149" id="kr.ac.hanyang.webstart/LayoutPanel@layoutPanel+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/LayoutPanel#layoutPanel" multiplicityLabel="//@children.4/@sourceConnections.7/@children.2/@children.2" roleLabel="//@children.4/@sourceConnections.7/@children.2/@children.0" orderingLabel="//@children.4/@sourceConnections.7/@children.2/@children.1" scopeKind="1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - layoutPanel" location="264,123" size="80,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="264,169" size="37,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="264,139" size="22,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="kr.ac.hanyang.webstart/MainFrame-Standard::Call->kr.ac.hanyang.webstart/LayoutPanel*kr.ac.hanyang.webstart/MainFrame-Standard::Instantiate->kr.ac.hanyang.webstart/LayoutPanel*kr.ac.hanyang.webstart/MainFrame-Soyatec::Import->kr.ac.hanyang.webstart/LayoutPanel" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.8/@children.2" label="//@children.4/@sourceConnections.8/@children.0" sourceEnd="//@children.4/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="148,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="193,181"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/MainFrame-Standard::Instantiate->kr.ac.hanyang.webstart/ActionProcessor*kr.ac.hanyang.webstart/MainFrame-Soyatec::Import->kr.ac.hanyang.webstart/ActionProcessor" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.9/@children.2" label="//@children.4/@sourceConnections.9/@children.0" sourceEnd="//@children.4/@sourceConnections.9/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="118,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="261,66" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,419"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="kr.ac.hanyang.webstart/ActionProcessor@actionProcessor+kr.ac.hanyang.webstart/MainFrame@" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.10/@children.2" label="//@children.4/@sourceConnections.10/@children.0" sourceEnd="//@children.4/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="261,132" id="kr.ac.hanyang.webstart/ActionProcessor@actionProcessor+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/MainFrame#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="actionProcessor" location="0,464" id="kr.ac.hanyang.webstart/ActionProcessor@actionProcessor+kr.ac.hanyang.webstart/MainFrame@|kr.ac.hanyang.webstart/ActionProcessor#actionProcessor" multiplicityLabel="//@children.4/@sourceConnections.10/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.10/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - actionProcessor" location="644,499" size="106,16" automaticRelocationAllowed="false" locationOnWireFromSource="-28.0" distanceFromWire="-25.0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="724,489" size="22,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="kr.ac.hanyang.webstart/MainFrame-Standard::Call->kr.ac.hanyang.common/Util" source="//@children.4" target="//@children.7" targetEnd="//@children.4/@sourceConnections.11/@children.2" label="//@children.4/@sourceConnections.11/@children.0" sourceEnd="//@children.4/@sourceConnections.11/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="36,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="260,217" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,558"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.6" name="AbstractInternalFrame" location="443,19" size="217,176" id="kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,108">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractInternalFrame" id="kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame#AbstractInternalFrame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractInternalFrame" id="kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame#AbstractInternalFrame(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="appendResult" id="kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame#appendResult([Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buttonAction" id="kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame#buttonAction(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveCSV" id="kr.ac.hanyang.webstart.internal_frame/AbstractInternalFrame#saveCSV()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.4/@sourceConnections.4" name="MenuBar" location="29,269" size="224,151" id="kr.ac.hanyang.webstart/MenuBar">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,72">
+      <children xsi:type="editmodel:MethodEditModel" name="MenuBar" id="kr.ac.hanyang.webstart/MenuBar#MenuBar(Lkr.ac.hanyang.webstart.ActionProcessor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMenuItem" id="kr.ac.hanyang.webstart/MenuBar#getMenuItem(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMenuItemMap" id="kr.ac.hanyang.webstart/MenuBar#getMenuItemMap()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSeparator" id="kr.ac.hanyang.webstart/MenuBar#getSeparator()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1 //@children.4/@sourceConnections.11" name="Util" location="1099,19" size="279,878" id="kr.ac.hanyang.common/Util">
+    <children xsi:type="editmodel:CompartmentEditModel" size="256,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="avg" id="kr.ac.hanyang.common/Util#avg"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bLANK_STRING" id="kr.ac.hanyang.common/Util#bLANK_STRING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cHART_UNDEF_VALUE" id="kr.ac.hanyang.common/Util#cHART_UNDEF_VALUE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="count" id="kr.ac.hanyang.common/Util#count"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fULL_FORMAT" id="kr.ac.hanyang.common/Util#fULL_FORMAT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fULL_FORMAT_24H" id="kr.ac.hanyang.common/Util#fULL_FORMAT_24H"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="format" id="kr.ac.hanyang.common/Util#format"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nEW_LINE" id="kr.ac.hanyang.common/Util#nEW_LINE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="peak" id="kr.ac.hanyang.common/Util#peak"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="186,648">
+      <children xsi:type="editmodel:MethodEditModel" name="createFile" id="kr.ac.hanyang.common/Util#createFile(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="debug" id="kr.ac.hanyang.common/Util#debug(Ljava.lang.Object;Ljava.lang.String;[Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="debug" id="kr.ac.hanyang.common/Util#debug(Ljava.lang.Object;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="debug" id="kr.ac.hanyang.common/Util#debug(Ljava.lang.Object;Ljava.lang.String;[D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="debug" id="kr.ac.hanyang.common/Util#debug(Ljava.lang.Object;Ljava.lang.String;[I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="debug" id="kr.ac.hanyang.common/Util#debug(Ljava.lang.String;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="error" id="kr.ac.hanyang.common/Util#error(Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAbsoluteScreenPoint" id="kr.ac.hanyang.common/Util#getAbsoluteScreenPoint(Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCenterLocation" id="kr.ac.hanyang.common/Util#getCenterLocation(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCompontPosition" id="kr.ac.hanyang.common/Util#getCompontPosition(Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDate" id="kr.ac.hanyang.common/Util#getDate(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDoubleValue" id="kr.ac.hanyang.common/Util#getDoubleValue(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileInfo" id="kr.ac.hanyang.common/Util#getFileInfo(Ljava.awt.Component;ILjava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIntValue" id="kr.ac.hanyang.common/Util#getIntValue(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLocaleInfo" id="kr.ac.hanyang.common/Util#getLocaleInfo(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumber" id="kr.ac.hanyang.common/Util#getNumber(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOptimizedByteValue" id="kr.ac.hanyang.common/Util#getOptimizedByteValue(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSimulationData" id="kr.ac.hanyang.common/Util#getSimulationData()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTabularData" id="kr.ac.hanyang.common/Util#getTabularData(Ljava.sql.ResultSet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="load" id="kr.ac.hanyang.common/Util#load(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadCSV" id="kr.ac.hanyang.common/Util#loadCSV(Ljava.awt.Component;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadCSV" id="kr.ac.hanyang.common/Util#loadCSV(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadContents" id="kr.ac.hanyang.common/Util#loadContents(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="makeCSV" id="kr.ac.hanyang.common/Util#makeCSV(Ljavax.swing.table.DefaultTableModel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openFile" id="kr.ac.hanyang.common/Util#openFile(Ljava.awt.Component;Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openFilePath" id="kr.ac.hanyang.common/Util#openFilePath(Ljava.awt.Component;Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="save" id="kr.ac.hanyang.common/Util#save(Ljava.lang.String;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveCSVFileByTableModel" id="kr.ac.hanyang.common/Util#saveCSVFileByTableModel(Ljava.awt.Component;Lkr.ac.hanyang.common.TableModel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveEmptyFile" id="kr.ac.hanyang.common/Util#saveEmptyFile(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveFile" id="kr.ac.hanyang.common/Util#saveFile(Ljava.awt.Component;Ljava.lang.Object;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveTempPMFile" id="kr.ac.hanyang.common/Util#saveTempPMFile(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveXML" id="kr.ac.hanyang.common/Util#saveXML(Ljava.io.File;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCenterLocation" id="kr.ac.hanyang.common/Util#setCenterLocation(Ljava.awt.Window;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toJPGImage" id="kr.ac.hanyang.common/Util#toJPGImage(Ljava.awt.Component;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toPNGImage" id="kr.ac.hanyang.common/Util#toPNGImage(Ljava.awt.Component;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeTempPMFile" id="kr.ac.hanyang.common/Util#writeTempPMFile(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TreePanel" location="31,574" size="219,256" id="kr.ac.hanyang.webstart/TreePanel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="fONT12_PLAIN" id="kr.ac.hanyang.webstart/TreePanel#fONT12_PLAIN"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,180">
+      <children xsi:type="editmodel:MethodEditModel" name="TreePanel" id="kr.ac.hanyang.webstart/TreePanel#TreePanel(Lkr.ac.hanyang.webstart.WorkspaceTreeModel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TreePanel" id="kr.ac.hanyang.webstart/TreePanel#TreePanel(Lkr.ac.hanyang.webstart.ActionProcessor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="kr.ac.hanyang.webstart/TreePanel#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCloseIcon" id="kr.ac.hanyang.webstart/TreePanel#getCloseIcon()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRefreshIcon" id="kr.ac.hanyang.webstart/TreePanel#getRefreshIcon()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTargetDataSets" id="kr.ac.hanyang.webstart/TreePanel#getTargetDataSets()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTreeModel" id="kr.ac.hanyang.webstart/TreePanel#getTreeModel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUpIcon" id="kr.ac.hanyang.webstart/TreePanel#getUpIcon()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTreeModel" id="kr.ac.hanyang.webstart/TreePanel#setTreeModel(Lkr.ac.hanyang.entity.Root;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueChanged" id="kr.ac.hanyang.webstart/TreePanel#valueChanged(Ljavax.swing.event.TreeSelectionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="233,72"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="kr.ac.hanyang.webstart/ActionProcessor@actionProcessor+kr.ac.hanyang.webstart/TreePanel@" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,180" id="kr.ac.hanyang.webstart/ActionProcessor@actionProcessor+kr.ac.hanyang.webstart/TreePanel@|kr.ac.hanyang.webstart/TreePanel#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="actionProcessor" location="275,429" id="kr.ac.hanyang.webstart/ActionProcessor@actionProcessor+kr.ac.hanyang.webstart/TreePanel@|kr.ac.hanyang.webstart/ActionProcessor#actionProcessor" multiplicityLabel="//@children.8/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ actionProcessor" location="1035,425" size="110,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1035,455" size="22,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="kr.ac.hanyang.webstart/TreePanel-Standard::Call->kr.ac.hanyang.common/Util" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="36,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,200" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,756"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="kr.ac.hanyang.webstart/TreePanel-Standard::Call->kr.ac.hanyang.common/ImageManager" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="36,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,149" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,140"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=kr.ac.hanyang.webstart/MainFrame;wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
